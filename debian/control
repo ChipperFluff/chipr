@@ -1,0 +1,13 @@
+Source: chipr
+Section: utils
+Priority: optional
+Maintainer: Squirrel <squirrel@fluff.lan>
+Build-Depends: debhelper (>= 12), dh-python, python3-all
+Standards-Version: 4.1.5
+Homepage: https://github.com/ChipperFluff/chipr
+
+Package: chipr
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Description: A CLI tool named chipr
+ Makes uwu come out of your terminal.
