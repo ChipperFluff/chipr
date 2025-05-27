@@ -1,0 +1,42 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build output
+build/
+dist/
+*.egg-info/
+*.egg
+
+# pybuild and debhelper
+.pybuild/
+.debhelper/
+debian/*.debhelper
+debian/chipr/
+debian/files
+debian/*.debhelper
+debian/*.substvars
+debian/*.debhelper.log
+debian/*.debhelper.stamp
+debian/debhelper-build-stamp
+debian/chipr.*
+*.build
+*.buildinfo
+*.changes
+
+# Packaging stuff
+*.tar.gz
+*.dsc
+
+# VS Code settings (optional)
+.vscode/
+
+# Git stuff
+*.orig
+
+# Local environments
+.env
+.venv/
+venv/
