@@ -1,3 +1,14 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: chipr
 Source: https://github.com/ChipperFluff/chipr
+
+Files: *
+Copyright: 2025 Squirrel
+License: MIT
+echo "# chipr" >> README.md
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:ChipperFluff/chipr.git
+git push -u origin main
